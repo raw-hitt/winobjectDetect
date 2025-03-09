@@ -16,7 +16,7 @@ namespace winobjectDetect.classes
         public yolov5sprocess()
         {
             yolo = new Yolov5(AppDomain.CurrentDomain.BaseDirectory + "best.onnx");
-            yolo.SetupLabels(new string[] { "car", "face" });
+            yolo.SetupLabels(new string[] { "car", "person" });
 
         }
 
